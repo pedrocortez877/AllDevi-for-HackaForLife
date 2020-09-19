@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <div id="container" class="container-fluid">
+
+        <div class="row">
+            <form action="#" method="#" class="p-5 mx-auto mt-5 w-100">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p><b>Seja bem vindo!</b></p>
+                        <p>O primeiro passo é preencher as informações abaixo:</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2 class="mx-auto my-5">Cadastro do Cliente</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                    Nome:
+                                    <input type="text" class="mb-2 p-2 w-100" placeholder="Insira seu nome" autofocus>
+                            </label>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                CPF:
+                                <input type="number" class="mb-2 p-2 w-100" min="14" max="14" placeholder="Insira Seu CPF">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                    Data de Nascimento:
+                                    <input type="date" class="mb-2 p-2 w-100" autofocus>
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2 class="mx-auto my-5">Informações de endereço</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Rua:
+                                <input type="text" class="mb-2 p-2 w-100" placeholder="Informe a rua">
+                            </label>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Número:
+                                <input type="number" class="mb-2 p-2 w-25" placeholder="Nº">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Bairro:
+                                <input type="text" class="mb-2 p-2 w-100" placeholder="Informe o bairro">
+                            </label>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Cidade:
+                                <input type="password" class="mb-2 p-2 w-100" placeholder="Informe a cidade">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Estado:
+                                <select name="" class="mb-2 p-2 w-100">
+                                    <option value="" disabled hidden>Qual é o estado?</option>
+                                    <option value="1">AC</option>
+                                    <option value="2">AL</option>
+                                    <option value="3">AP</option>
+                                    <option value="4">AM</option>
+                                    <option value="5">BA</option>
+                                    <option value="6">CE</option>
+                                    <option value="7">DF</option>
+                                    <option value="8">ES</option>
+                                    <option value="9">GO</option>
+                                    <option value="10">MA</option>
+                                    <option value="11">MT</option>
+                                    <option value="12">MS</option>
+                                    <option value="13">MG</option>
+                                    <option value="14">PA</option>
+                                    <option value="15">PB</option>
+                                    <option value="16">PR</option>
+                                    <option value="17">PE</option>
+                                    <option value="18">PI</option>
+                                    <option value="19">RJ</option>
+                                    <option value="20">RN</option>
+                                    <option value="21">RS</option>
+                                    <option value="22">RO</option>
+                                    <option value="23">RR</option>
+                                    <option value="24">SC</option>
+                                    <option value="25">SP</option>
+                                    <option value="26">SE</option>
+                                    <option value="27">TO</option>
+                                </select>
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2 class="mx-auto my-5">Contato</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Email:
+                                <input type="email" class="mb-2 p-2 w-100" placeholder="exemplo@exemplo.com">
+                            </label>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Telefone:
+                                <input type="number" class="mb-2 p-2 w-100" placeholder="(00)00000-0000">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2 class="mx-auto my-5">Informações para o login</h2>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Usuário:
+                                <input type="text" class="mb-2 p-2 w-100" placeholder="Informe um nome de usuário">
+                            </label>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label class="m-2 font-weight-bold">
+                                Senha:
+                                <input type="password" class="mb-2 p-2 w-100" placeholder="Informe uma senha">
+                            </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="button" class="botao mt-5 mx-auto w-50" value="Cadastrar">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

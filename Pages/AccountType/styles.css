@@ -1,0 +1,66 @@
+#container {
+    background-color: lawngreen;
+    background-image: radial-gradient(#33b68f, #63fa9d);
+    height: 100%;
+    position: absolute;
+}
+
+.botao {
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    border-color: rgb(91, 255, 140);
+    color: rgb(18, 70, 25);
+    font-weight: bold;
+    outline: 0;
+    box-shadow: 0px 1px rgb(75, 211, 159), 0px 2px rgb(75, 211, 159), 0px 3px rgb(75, 211, 159);
+    transition: box-shadow .2s linear;
+}
+
+.botao:hover {
+    color: rgb(75, 211, 159);
+}
+
+.botao:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+
+.tipo_conta {
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(75, 211, 159);
+    color: rgb(18, 70, 25);
+    font-weight: bold;
+    box-shadow: 0px 1px rgb(75, 211, 159), 0px 2px rgb(75, 211, 159), 0px 3px rgb(75, 211, 159);
+    transition: box-shadow .2s linear;
+}
+
+.tipo_conta:hover {
+    text-decoration: none;
+    color: rgb(75, 211, 159);
+}
+
+.tipo_conta:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+
+form {
+    color: rgb(18, 70, 25);
+    border: 2px solid rgb(43, 252, 130);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(68, 255, 152);
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    padding-left: 25px;
+}
